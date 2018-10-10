@@ -1,0 +1,27 @@
+---
+title: "class_2019-10-10"
+author: "Tauheed"
+date: "October 10, 2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(readxl)
+```
+
+
+
+```{r}
+fall_2017 <- read_excel("Fall 2017 enrollment.xlsx", skip = 3)
+fall_2018 <- read_excel("Fall 2018 enrollment.xlsx", skip = 3)
+
+
+```
+
+
+
+```{r}
+```
+
